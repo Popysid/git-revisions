@@ -5,9 +5,9 @@
 ### Initialization:
 1. Open bash terminal
 2. Print working directory `pwd`
-3. From home go to **workspace** directory `cd worspace`
-4. Otherwise type `cd ..` to go up one folder
-5. Create directory `mkdir directory-name`
+3. Go to your **root** directory `cd ~`
+4. Otherwise type `cd ..` to go up one folder until you reach it
+5. Create a directory for your project `mkdir directory-name`
 6. Initilize git project `git init`
 
 ### First commit: 
