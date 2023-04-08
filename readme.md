@@ -14,7 +14,7 @@ Popysid
 
 ## Licence : 
 
-Pas de licence.
+Licence CC0 1.0 Universal
 
 ## Utilisations et modifications :
 
