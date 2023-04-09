@@ -14,7 +14,7 @@ You’ll notice the phrase *"fast-forward"* in that merge. (**TODO:** Place expl
 5. Pull from remote develop branch `git pull origin develop`
 
 ### Fix Git conflicts if any:
-(**TODO:** Create an issue to explain how to fix Git conflicts)
+(**TODO:** Place explanation on how to fix Git conflicts here)
 
 ### Merge changes from develop to your local feature branch:
 1. If no conflicts or conflicts are solved `git checkout branch-name-to-realign-with-develop`
