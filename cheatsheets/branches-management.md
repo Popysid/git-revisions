@@ -89,7 +89,8 @@ Click on the trash icon on right of the name of your unwanted branch (that's it!
 4. Set the upstream origin of your local branch renamed `git branch -u origin/new-branch-name`
 5. You'll see a message saying: "branch '*new-branch-name*' set up to track '*origin/new-branch-name*'."
 
-Now try again pushing some changes upstream with `git push`. 
+Now try again pushing some changes upstream with `git push`, and you'll see that the remote tracked branch has been correctly setup.
+Clean your local branches list with `git fetch --prune origin` again to remove locally the remote branch that you have deleted on GitHub.
 
 
 
