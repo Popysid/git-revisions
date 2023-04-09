@@ -4,7 +4,7 @@ The good practice is to realign your work with the remote develop branch on week
 
 ## Realign on develop with simple merge: (Fast-forward)
 
-You’ll notice the phrase *"fast-forward"* in that merge. (**TODO:** Create an issue for explanation on fast-forward)
+You’ll notice the phrase *"fast-forward"* in that merge. (**TODO:** Place explanation on fast-forward here)
 
 ### Pull the changes from remote develop:
 1. Check your Git status on the branch you are `git status`
@@ -26,11 +26,11 @@ You’ll notice the phrase *"fast-forward"* in that merge. (**TODO:** Create an 
 
 ## Realign on develop with non-fast-forward merge:
 
-**TODO:** Create an issue for non-fast-forward merge startegy
+**TODO:** Place process for non-fast-forward merging startegy here
 
 ---
 
 ## Realign on develop with rebase:
 
-**TODO:** Create an issue for rebase startegy
+**TODO:** Place process for rebasing startegy here
 
