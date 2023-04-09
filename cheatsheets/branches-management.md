@@ -35,6 +35,48 @@ Type `git checkout -b feature/new-branch_1`
 ### Push your local branch to remote repository:
 Type `git push origin feature/my-awesome-feature` 
 
+### Delete a remote branch from local machine:
+If you have accidentally pushed an unwanted branch, type `git push origin --delete feature/my-awesome-feature`
+
 ---
 
 ## GitHub remote branches management
+
+### Create a remote branch:
+1. Go in your repository
+2. Click on **Code** button if **Branches** button is not on screen
+3. Click on **Branches** button
+4. Click on **New branch** button
+5. Enter a branch name
+6. Select the source branch you want
+7. Click on **Create branch** button
+
+### Create a remote branch from an issue:
+1. Click on **Issues** button
+2. Click on the issue you want to create a branch from
+3. Assign the issue to yourself by clicking **assign yourself** link (in Assignees section on the right)
+4. Click on **Create a branch** (in Development section on the right)
+5. Enter a branch name (edit the suggestion)
+6. Select the destination repository
+7. Click on **Change branch source** link
+8. Select a branch source (ideally develop)
+9. Click on **Create branch** button
+
+### Switch branch:
+1. Click on the button with the branch icone with the name of the branch you are on
+2. In the drop down menu select the branch you want to switch on
+3. If you don't se the name of the branch uou want to switch on, click **View all branches** link
+
+### Rename a remote branch:
+1. Click on **Code** button if **Branches** button is not on screen
+2. Click on **Branches** button
+3. Click on the edit icone on the right of the name of the branch you want to rename
+4. Edit the name of the branch
+5. Click on **Rename branch**
+**Important!** This will affect the link with your local branch that is tracking the remote one. If you want to check type `git branch --all` on your terminal. You'll see that it has not change the name of the branch in your branches list. You need to `git fetch`. Then you'll see that you have fetched the renamed branch but if you type `git branch --all` again, you'll have in the remote barcnhes list the old name and the new name. Type `git fetch --prune origin`. Now yif you `git branch --all`again, the old name has disapeared, but your local branch still have the old name and is not tracking the new remote branch name. try and do a push to from it to check: 
+- do a change on the file (e.g. just a comment), type `git add filename.txt` then `git commit -m "commit message"` then `git push` 
+
+### Delete a remote branch:
+
+
+
