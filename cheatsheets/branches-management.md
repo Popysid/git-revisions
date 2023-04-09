@@ -63,20 +63,34 @@ If you have accidentally pushed an unwanted branch, type `git push origin --dele
 9. Click on **Create branch** button
 
 ### Switch branch:
-1. Click on the button with the branch icone with the name of the branch you are on
+1. Click on the button with the branch icon with the name of the branch you are on
 2. In the drop down menu select the branch you want to switch on
 3. If you don't se the name of the branch uou want to switch on, click **View all branches** link
 
 ### Rename a remote branch:
 1. Click on **Code** button if **Branches** button is not on screen
 2. Click on **Branches** button
-3. Click on the edit icone on the right of the name of the branch you want to rename
+3. Click on the edit icon on the right of the name of the branch you want to rename
 4. Edit the name of the branch
 5. Click on **Rename branch**
+
 **Important!** This will affect the link with your local branch that is tracking the remote one. If you want to check type `git branch --all` on your terminal. You'll see that it has not change the name of the branch in your branches list. You need to `git fetch`. Then you'll see that you have fetched the renamed branch but if you type `git branch --all` again, you'll have in the remote barcnhes list the old name and the new name. Type `git fetch --prune origin`. Now yif you `git branch --all`again, the old name has disapeared, but your local branch still have the old name and is not tracking the new remote branch name. try and do a push to from it to check: 
-- do a change on the file (e.g. just a comment), type `git add filename.txt` then `git commit -m "commit message"` then `git push` 
+- do a change on the file (e.g. just a comment), type `git add filename.txt` then `git commit -m "commit message"` then `git push`
+- As the old local branch name tracks the old remote branch name, instead of pushing on the new name it has recreated the old one and now you have 2 branches. that is not what we want.
+- So we are going to delete this old name branch on Github:
 
 ### Delete a remote branch:
+Click on the trash icon on right of the name of your unwanted branch (that's it!)
+
+### Rename also your local branch and track the new remote branch name:
+1. Make sure you're on the right branch `git branch` (the granch should have the * before its name)
+2. Type `git branch -m new-branch-name` (with lowercase m)
+3. Check the new branch name `git branch`
+4. Set the upstream origin of your local branch renamed `git branch -u origin/new-branch-name`
+5. You'll see a message saying: "branch '*new-branch-name*' set up to track '*origin/new-branch-name*'."
+
+Now try again pushing some changes upstream with `git push`. 
+
 
 
 
