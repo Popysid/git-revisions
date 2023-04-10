@@ -5,10 +5,10 @@ Git revisions folder.
 Created to revise Git command lines.
 
 ## How to use?
-- make sure you read and understand [the disclaimer](DISCLAIMER) first
-- make sure you read [how to contribute](CONTRIBUTING) if you want to participate
+- make sure you read and understand [the disclaimer](DISCLAIMER.md) first
+- make sure you read [how to contribute](CONTRIBUTING.md) if you want to participate
 - navigate in the project as you want by clicking th different packages and files
-- or use the [files menu](MENU)
+- or use the [files menu](MENU.md)
 
 ## Author : 
 
@@ -20,7 +20,7 @@ Popysid
 
 ## Licence : 
 
-CC0 1.0 Universal Licence (See [Licence](LICENCE) for more information)
+CC0 1.0 Universal Licence (See [Licence](LICENCE.md) for more information)
 
 ## Usages et modifications :
 

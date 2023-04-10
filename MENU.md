@@ -2,11 +2,11 @@
 
 ## Root files:
 
-- [Contributing](CONTRIBUTING)
-- [Disclaimer](DISCLAIMER)
-- [Licence](LICENCE)
-- [Menu](MENU)
-- [Readme](README)
+- [Contributing](CONTRIBUTING.md)
+- [Disclaimer](DISCLAIMER.md)
+- [Licence](LICENCE.md)
+- [Menu](MENU.md)
+- [Readme](README.md)
 
 ## cheatsheets folder:
 
