@@ -4,7 +4,11 @@ The good practice is to realign your work with the remote develop branch on week
 
 ## Realign on develop with simple merge: (Fast-forward)
 
-You’ll notice the phrase *"fast-forward"* in that merge. (**TODO:** Place explanation on fast-forward here)
+You’ll notice the phrase *"fast-forward"* in that merge. **Fast-forward** is the default option for `git merge`command line.
+
+With **Fast-forward**, when possible resolve the merge as a fast-forward (only update the branch pointer to match the merged branch; do not create a merge commit). When not possible (when the merged-in history is not a descendant of the current history), create a merge commit.
+
+See [Documentation about fast-forward merge](https://git-scm.com/docs/git-merge)
 
 ### Pull the changes from remote develop:
 1. Check your Git status on the branch you are `git status`
